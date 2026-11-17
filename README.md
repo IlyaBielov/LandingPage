@@ -3,6 +3,19 @@
 A responsive one-page landing for a made-up mobile app, built as practice for an HTML5 & CSS3 course
 (2018). HTML and CSS with a small jQuery image slider and a click-to-play YouTube video.
 
+## Screenshots
+
+<table>
+  <tr>
+    <th>Desktop (1280 px)</th>
+    <th>Phone (390 px)</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/desktop.jpg" alt="The landing page on desktop" width="600"></td>
+    <td valign="top"><img src="docs/screenshots/mobile.jpg" alt="The landing page on a phone" width="240"></td>
+  </tr>
+</table>
+
 ## What's on the page
 
 - Transparent header over a full-width hero slider (jQuery + [Unslider](https://github.com/idiot/unslider) 2.0.3)
@@ -34,7 +47,8 @@ python3 -m http.server 8000
 │   └── unslider-dots.css  # Slider dots in the page's colours
 ├── js/
 │   └── unslider-min.js    # Unslider 2.0.3
-└── images/
+├── images/
+└── docs/screenshots/      # Screenshots for this README
 ```
 
 jQuery 3.7.1 is loaded from the official CDN with a Subresource Integrity hash.
